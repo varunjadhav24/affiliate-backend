@@ -28,6 +28,7 @@ app.add_middleware(
 
 from app.api.niches import router as niches_router
 from app.api.sites import router as sites_router
+from app.api.sites_serve import router as sites_serve_router
 from app.api.campaigns import router as campaigns_router
 from app.api.links import router as links_router
 from app.api.alerts import router as alerts_router
@@ -39,6 +40,7 @@ from app.api.system import router as system_router
 API_PREFIX = "/api/v1"
 app.include_router(niches_router, prefix=API_PREFIX)
 app.include_router(sites_router, prefix=API_PREFIX)
+app.include_router(sites_serve_router)
 app.include_router(campaigns_router, prefix=API_PREFIX)
 app.include_router(links_router, prefix=API_PREFIX)
 app.include_router(alerts_router, prefix=API_PREFIX)
