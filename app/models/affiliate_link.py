@@ -13,6 +13,7 @@ class AffiliateLink(Base):
     price = Column(Float, nullable=True)
     rating = Column(Float, nullable=True)
     status = Column(String(50), nullable=False, default="active")
+    image_url = Column(String(1000), nullable=True)
     last_checked = Column(DateTime, nullable=True)
     niche = relationship("Niche", back_populates="affiliate_links")
     __table_args__ = (
