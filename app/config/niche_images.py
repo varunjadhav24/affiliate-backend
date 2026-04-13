@@ -1,0 +1,16 @@
+NICHE_IMAGES = {
+    "model-building": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&auto=format&fit=crop",
+    "aquaristics": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop",
+    "fishing": "https://images.unsplash.com/photo-1652210145257-7dc5b40a34c3?w=1200&auto=format&fit=crop",
+    "camping": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1200&auto=format&fit=crop",
+    "photography": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1200&auto=format&fit=crop",
+    "yoga": "https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?w=1200&auto=format&fit=crop",
+    "cycling": "https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=1200&auto=format&fit=crop",
+    "knitting": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=1200&auto=format&fit=crop",
+    "board-games": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=1200&auto=format&fit=crop",
+    "gardening": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&auto=format&fit=crop",
+    "electronics-diy": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&auto=format&fit=crop",
+    "climbing": "https://images.unsplash.com/photo-1522163182402-834f871fd851?w=1200&auto=format&fit=crop",
+    "sewing": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=1200&auto=format&fit=crop",
+    "diy-home": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&auto=format&fit=crop",
+}
